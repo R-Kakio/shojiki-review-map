@@ -1,0 +1,32 @@
+{
+  "name": "shojiki-review-map",
+  "version": "1.0.0",
+  "description": "YouTube「正直レビュー」で紹介されたお店をマップで探せるサイト",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["youtube", "review", "map", "nextjs", "supabase"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.15.0",
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.90.1",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^25.0.9",
+    "@types/react": "^19.2.8",
+    "autoprefixer": "^10.4.23",
+    "leaflet": "^1.9.4",
+    "next": "^14.2.35",
+    "postcss": "^8.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^5.0.0",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3"
+  }
+}

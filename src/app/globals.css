@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet用スタイル調整 */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+/* カスタムマーカースタイル */
+.custom-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.marker-good {
+  background-color: #48BB78;
+  color: white;
+}
+
+.marker-neutral {
+  background-color: #ECC94B;
+  color: white;
+}
+
+.marker-bad {
+  background-color: #F56565;
+  color: white;
+}
+
+.marker-unknown {
+  background-color: #A0AEC0;
+  color: white;
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  .map-container {
+    height: 50vh;
+  }
+  
+  .store-list {
+    height: auto;
+    max-height: 40vh;
+  }
+}
+
+@media (min-width: 769px) {
+  .map-container {
+    height: calc(100vh - 200px);
+  }
+}
+
+/* ローディングスピナー */
+.spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #E53E3E;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
