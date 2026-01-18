@@ -1,28 +1,26 @@
 {
   "name": "shojiki-review-map",
   "version": "1.0.0",
-  "description": "YouTube「正直レビュー」で紹介されたお店をマップで探せるサイト",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",
     "@supabase/supabase-js": "^2.90.1",
     "@types/leaflet": "^1.9.21",
-    "@types/node": "^25.0.9",
-    "@types/react": "^18.3.27",
-    "autoprefixer": "^10.4.23",
+    "@types/node": "^22.15.3",
+    "@types/react": "^18.3.21",
+    "autoprefixer": "^10.4.21",
     "leaflet": "^1.9.4",
     "next": "^14.2.35",
     "postcss": "^8.5.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-leaflet": "^4.2.1",
-    "tailwindcss": "^3.4.19",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.9.3"
   }
 }
