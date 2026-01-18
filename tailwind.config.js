@@ -8,7 +8,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // 正直レビューのブランドカラー
         primary: {
           50: '#FFF5F5',
           100: '#FED7D7',
